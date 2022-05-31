@@ -1,0 +1,57 @@
+* {
+    background-color: rgb(255, 251, 233);
+}
+
+h3 {
+    text-align: center;
+    color: rgb(155, 120, 95);
+    font-size: 30px;
+    font-family: 'Adobe Garamond Pro', 'Georgia', 'Times New Roman', sans-serif;
+    margin-top: 30px;
+}
+
+.ltext {
+    color: rgb(206, 171, 147);
+    text-align: center;
+    font-family: 'Adobe Garamond Pro', 'Georgia', 'Times New Roman', sans-serif;
+    font-size: 25px;
+    
+}
+.ltext.tiny {
+    font-size: 16px;
+}
+
+.imgcenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    opacity: 70%;
+    transition: 0.5s;
+}
+
+.imgcenter:hover {
+    opacity: 100%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+
+a:link,
+a:visited,
+a:hover {
+    color: rgb(206, 171, 147);
+    
+}
+
+a:link {
+    transition: 0.5s;
+}
+
+a:visited {
+    color: rgb(155, 120, 95);
+}
+
+a:hover {
+    color: rgb(227, 202, 165);
+    transition: 0.5s;
+}
